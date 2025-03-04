@@ -6,14 +6,14 @@ import fs from 'fs'
 
 //OwnerShip
 global.owner = [
-  [process.env.OWNER_NUMBER || '919637987574', process.env.OWNER_NAME || 'Developer Shizo 🤖', true],
-  ['919637987574', 'Shizo Techie ❤️✨', true]
+  [process.env.OWNER_NUMBER || '4915563151347', process.env.OWNER_NAME || 'MARTIN 🤖', true],
+  ['4915562378343', '𝔹𝕃𝔸ℂ𝕂𝕊𝕂𝕐-𝕄𝔻 ❤️✨', true]
 ]
 global.mods = []
 global.prems = []
 
-global.author = process.env.OWNER_NAME || 'Shizo The Techie'
-global.botname = process.env.BOT_NAME || 'OREO-BOT'
+global.author = process.env.OWNER_NAME || 'MARTIN'
+global.botname = process.env.BOT_NAME || '𝔹𝕃𝔸ℂ𝕂𝕊𝕂𝕐-𝕄𝔻'
 global.oname = author
 global.bname = botname
 
@@ -25,12 +25,12 @@ global.gclink = process.env.GROUP_LINK || 'https://chat.whatsapp.com/JnBffMgpiCg
 global.shizokeys = 'shizo'
 
 //Sticker Watermarks
-global.packname = process.env.BOT_NAME || 'OREO-BOT 🥵'
-global.stkpack = process.env.BOT_NAME || 'OREO-BOT 🥵'
-global.stkowner = process.env.OWNER_NAME || '© Shizo The Techie'
+global.packname = process.env.BOT_NAME || '𝔹𝕃𝔸ℂ𝕂𝕊𝕂𝕐-𝕄𝔻 🥵'
+global.stkpack = process.env.BOT_NAME || '𝔹𝕃𝔸ℂ𝕂𝕊𝕂𝕐-𝕄𝔻 🥵'
+global.stkowner = process.env.OWNER_NAME || '© 𝔹𝕃𝔸ℂ𝕂𝕊𝕂𝕐-𝕄𝔻 The Techie'
 
 //Watermark
-global.maker = process.env.MAKER || 'Made with ❤️ by OREO-BOT'
+global.maker = process.env.MAKER || 'Made with ❤️ by 𝔹𝕃𝔸ℂ𝕂𝕊𝕂𝕐-𝕄𝔻'
 
 //global emojis
 global.wait = '*⌛ _Charging..._*\n*▰▰▰▱▱▱▱▱*'
@@ -54,11 +54,11 @@ global.getQrWeb = 0
 global.renderHost = 0
 global.replitHost = 0
 
-//global.pairingNumber = "" //put your bot number here
+//global.pairingNumber = "4915562378343" //put your bot number here
 
-global.mods = ['919637987574','919637987574']
-global.prems = ['919637987574','919637987574']
-global.allowed = ['919637987574','919637987574']
+global.mods = ['4915563151347','919637987574']
+global.prems = ['4915563151347','919637987574']
+global.allowed = ['4915563151347','919637987574']
 global.keysZens = ['c2459db922', '37CC845916', '6fb0eff124']
 global.keysxxx = keysZens[Math.floor(keysZens.length * Math.random())]
 global.keysxteammm = [
